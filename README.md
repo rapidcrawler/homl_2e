@@ -23,7 +23,7 @@ python. It contains the example code and solutions to the exercises in the secon
 - O’Reilly Online Learning
 - How to Contact Us
 - Acknowledgments
-I. The Fundamentals of Machine Learning
+# I. The Fundamentals of Machine Learning
 1. The Machine Learning Landscape
   - What Is Machine Learning?
   - Why Use Machine Learning?
