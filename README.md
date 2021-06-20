@@ -7,3 +7,412 @@ python. It contains the example code and solutions to the exercises in the secon
 <img src="https://images-na.ssl-images-amazon.com/images/I/51aqYc1QyrL._SX379_BO1,204,203,200_.jpg" title="book" width="150" />
 
 **Note**: If you are looking for the first edition notebooks, check out [ageron/handson-ml](https://github.com/ageron/handson-ml).
+
+# Table Of Content:
+- Preface
+- The Machine Learning Tsunami
+- Machine Learning in Your Projects
+- Objective and Approach
+- Prerequisites
+- Roadmap
+- Changes in the Second Edition
+- Other Resources
+- Conventions Used in This Book
+- Code Examples
+- Using Code Examples
+- O’Reilly Online Learning
+- How to Contact Us
+- Acknowledgments
+# I. The Fundamentals of Machine Learning
+1. The Machine Learning Landscape
+  - What Is Machine Learning?
+  - Why Use Machine Learning?
+  - Examples of Applications
+  - Types of Machine Learning Systems
+  - Supervised/Unsupervised Learning
+  - Batch and Online Learning
+  - Instance-Based Versus Model-Based Learning
+  - Main Challenges of Machine Learning
+  - Insufficient Quantity of Training Data
+  - Nonrepresentative Training Data
+  - Poor-Quality Data
+  - Irrelevant Features
+  - Overfitting the Training Data
+  - Underfitting the Training Data
+  - Stepping Back
+  - Testing and Validating
+  - Hyperparameter Tuning and Model Selection
+  - Data Mismatch
+  - Exercises
+2. End-to-End Machine Learning Project
+  - Working with Real Data
+  - Look at the Big Picture
+  - Frame the Problem
+  - Select a Performance Measure
+  - Check the Assumptions
+  - Get the Data
+  - Create the Workspace
+  - Download the Data
+  - Take a Quick Look at the Data Structure
+  - Create a Test Set
+  - Discover and Visualize the Data to Gain Insights
+  - Visualizing Geographical Data
+  - Looking for Correlations
+  - Experimenting with Attribute Combinations
+  - Prepare the Data for Machine Learning Algorithms
+  - Data Cleaning
+  - Handling Text and Categorical Attributes
+  - Custom Transformers
+  - Feature Scaling
+  - Transformation Pipelines
+  - Select and Train a Model
+  - Training and Evaluating on the Training Set
+  - Better Evaluation Using Cross-Validation
+  - Fine-Tune Your Model
+  - Grid Search
+  - Randomized Search
+  - Ensemble Methods
+  - Analyze the Best Models and Their Errors
+  - Evaluate Your System on the Test Set
+  - Launch, Monitor, and Maintain Your System
+  - Try It Out!
+  - Exercises
+3. Classification
+  - MNIST
+  - Training a Binary Classifier
+  - Performance Measures
+  - Measuring Accuracy Using Cross-Validation
+  - Confusion Matrix
+  - Precision and Recall
+  - Precision/Recall Trade-off
+  - The ROC Curve
+  - Multiclass Classification
+  - Error Analysis
+  - Multilabel Classification
+  - Multioutput Classification
+  - Exercises
+4. Training Models
+  - Linear Regression
+  - The Normal Equation
+  - Computational Complexity
+  - Gradient Descent
+  - Batch Gradient Descent
+  - Stochastic Gradient Descent
+  - Mini-batch Gradient Descent
+  - Polynomial Regression
+  - Learning Curves
+  - Regularized Linear Models
+  - Ridge Regression
+  - Lasso Regression
+  - Elastic Net
+  - Early Stopping
+  - Logistic Regression
+  - Estimating Probabilities
+  - Training and Cost Function
+  - Decision Boundaries
+  - Softmax Regression
+  - Exercises
+5. Support Vector Machines
+  - Linear SVM Classification
+  - Soft Margin Classification
+  - Nonlinear SVM Classification
+  - Polynomial Kernel
+  - Similarity Features
+  - Gaussian RBF Kernel
+  - Computational Complexity
+  - SVM Regression
+  - Under the Hood
+  - Decision Function and Predictions
+  - Training Objective
+  - Quadratic Programming
+  - The Dual Problem
+  - Kernelized SVMs
+  - Online SVMs
+  - Exercises
+6. Decision Trees
+  - Training and Visualizing a Decision Tree
+  - Making Predictions
+  - Estimating Class Probabilities
+  - The CART Training Algorithm
+  - Computational Complexity
+  - Gini Impurity or Entropy?
+  - Regularization Hyperparameters
+  - Regression
+  - Instability
+  - Exercises
+7. Ensemble Learning and Random Forests
+  - Voting Classifiers
+  - Bagging and Pasting
+  - Bagging and Pasting in Scikit-Learn
+  - Out-of-Bag Evaluation
+  - Random Patches and Random Subspaces
+  - Random Forests
+  - Extra-Trees
+  - Feature Importance
+  - Boosting
+  - AdaBoost
+  - Gradient Boosting
+  - Stacking
+  - Exercises
+8. Dimensionality Reduction
+  - The Curse of Dimensionality
+  - Main Approaches for Dimensionality Reduction
+  - Projection
+  - Manifold Learning
+  - PCA
+  - Preserving the Variance
+  - Principal Components
+  - Projecting Down to d Dimensions
+  - Using Scikit-Learn
+  - Explained Variance Ratio
+  - Choosing the Right Number of Dimensions
+  - PCA for Compression
+  - Randomized PCA
+  - Incremental PCA
+  - Kernel PCA
+  - Selecting a Kernel and Tuning Hyperparameters
+  - LLE
+  - Other Dimensionality Reduction Techniques
+  - Exercises
+9. Unsupervised Learning Techniques
+  - Clustering
+  - K-Means
+  - Limits of K-Means
+  - Using Clustering for Image Segmentation
+  - Using Clustering for Preprocessing
+  - Using Clustering for Semi-Supervised Learning
+  - DBSCAN
+  - Other Clustering Algorithms
+  - Gaussian Mixtures
+  - Anomaly Detection Using Gaussian Mixtures
+  - Selecting the Number of Clusters
+  - Bayesian Gaussian Mixture Models
+  - Other Algorithms for Anomaly and Novelty Detection
+  - Exercises
+# II. Neural Networks and Deep Learning
+10. Introduction to Artificial Neural Networks with Keras
+  - From Biological to Artificial Neurons
+  - Biological Neurons
+  - Logical Computations with Neurons
+  - The Perceptron
+  - The Multilayer Perceptron and Backpropagation
+  - Regression MLPs
+  - Classification MLPs
+  - Implementing MLPs with Keras
+  - Installing TensorFlow 2
+  - Building an Image Classifier Using the Sequential API
+  - Building a Regression MLP Using the Sequential API
+  - Building Complex Models Using the Functional API
+  - Using the Subclassing API to Build Dynamic Models
+  - Saving and Restoring a Model
+  - Using Callbacks
+  - Using TensorBoard for Visualization
+  - Fine-Tuning Neural Network Hyperparameters
+  - Number of Hidden Layers
+  - Number of Neurons per Hidden Layer
+  - Learning Rate, Batch Size, and Other Hyperparameters
+  - Exercises
+11. Training Deep Neural Networks
+  - The Vanishing/Exploding Gradients Problems
+  - Glorot and He Initialization
+  - Nonsaturating Activation Functions
+  - Batch Normalization
+  - Gradient Clipping
+  - Reusing Pretrained Layers
+  - Transfer Learning with Keras
+  - Unsupervised Pretraining
+  - Pretraining on an Auxiliary Task
+  - Faster Optimizers
+  - Momentum Optimization
+  - Nesterov Accelerated Gradient
+  - AdaGrad
+  - RMSProp
+  - Adam and Nadam Optimization
+  - Learning Rate Scheduling
+  - Avoiding Overfitting Through Regularization
+  - ℓ1 and ℓ2 Regularization
+  - Dropout
+  - Monte Carlo (MC) Dropout
+  - Max-Norm Regularization
+  - Summary and Practical Guidelines
+  - Exercises
+12. Custom Models and Training with TensorFlow
+  - A Quick Tour of TensorFlow
+  - Using TensorFlow like NumPy
+  - Tensors and Operations
+  - Tensors and NumPy
+  - Type Conversions
+  - Variables
+  - Other Data Structures
+  - Customizing Models and Training Algorithms
+  - Custom Loss Functions
+  - Saving and Loading Models That Contain Custom Components
+  - Custom Activation Functions, Initializers, Regularizers, and Constraints
+  - Custom Metrics
+  - Custom Layers
+  - Custom Models
+  - Losses and Metrics Based on Model Internals
+  - Computing Gradients Using Autodiff
+  - Custom Training Loops
+  - TensorFlow Functions and Graphs
+  - AutoGraph and Tracing
+  - TF Function Rules
+  - Exercises
+13. Loading and Preprocessing Data with TensorFlow
+  - The Data API
+  - Chaining Transformations
+  - Shuffling the Data
+  - Preprocessing the Data
+  - Putting Everything Together
+  - Prefetching
+  - Using the Dataset with tf.keras
+  - The TFRecord Format
+  - Compressed TFRecord Files
+  - A Brief Introduction to Protocol Buffers
+  - TensorFlow Protobufs
+  - Loading and Parsing Examples
+  - Handling Lists of Lists Using the SequenceExample Protobuf
+  - Preprocessing the Input Features
+  - Encoding Categorical Features Using One-Hot Vectors
+  - Encoding Categorical Features Using Embeddings
+  - Keras Preprocessing Layers
+  - TF Transform
+  - The TensorFlow Datasets (TFDS) Project
+  - Exercises
+14. Deep Computer Vision Using Convolutional Neural Networks
+  - The Architecture of the Visual Cortex
+  - Convolutional Layers
+  - Filters
+  - Stacking Multiple Feature Maps
+  - TensorFlow Implementation
+  - Memory Requirements
+  - Pooling Layers
+  - TensorFlow Implementation
+  - CNN Architectures
+  - LeNet-5
+  - AlexNet
+  - GoogLeNet
+  - VGGNet
+  - ResNet
+  - Xception
+  - SENet
+  - Implementing a ResNet-34 CNN Using Keras
+  - Using Pretrained Models from Keras
+  - Pretrained Models for Transfer Learning
+  - Classification and Localization
+  - Object Detection
+  - Fully Convolutional Networks
+  - You Only Look Once (YOLO)
+  - Semantic Segmentation
+  - Exercises
+15. Processing Sequences Using RNNs and CNNs
+  - Recurrent Neurons and Layers
+  - Memory Cells
+  - Input and Output Sequences
+  - Training RNNs
+  - Forecasting a Time Series
+  - Baseline Metrics
+  - Implementing a Simple RNN
+  - Deep RNNs
+  - Forecasting Several Time Steps Ahead
+  - Handling Long Sequences
+  - Fighting the Unstable Gradients Problem
+  - Tackling the Short-Term Memory Problem
+  - Exercises
+16. Natural Language Processing with RNNs and Attention
+  - Generating Shakespearean Text Using a Character RNN
+  - Creating the Training Dataset
+  - How to Split a Sequential Dataset
+  - Chopping the Sequential Dataset into Multiple Windows
+  - Building and Training the Char-RNN Model
+  - Using the Char-RNN Model
+  - Generating Fake Shakespearean Text
+  - Stateful RNN
+  - Sentiment Analysis
+  - Masking
+  - Reusing Pretrained Embeddings
+  - An Encoder–Decoder Network for Neural Machine Translation
+  - Bidirectional RNNs
+  - Beam Search
+  - Attention Mechanisms
+  - Visual Attention
+  - Attention Is All You Need: The Transformer Architecture
+  - Recent Innovations in Language Models
+  - Exercises
+17. Representation Learning and Generative Learning Using Autoencoders and GANs
+  - Efficient Data Representations
+  - Performing PCA with an Undercomplete Linear Autoencoder
+  - Stacked Autoencoders
+  - Implementing a Stacked Autoencoder Using Keras
+  - Visualizing the Reconstructions
+  - Visualizing the Fashion MNIST Dataset
+  - Unsupervised Pretraining Using Stacked Autoencoders
+  - Tying Weights
+  - Training One Autoencoder at a Time
+  - Convolutional Autoencoders
+  - Recurrent Autoencoders
+  - Denoising Autoencoders
+  - Sparse Autoencoders
+  - Variational Autoencoders
+  - Generating Fashion MNIST Images
+  - Generative Adversarial Networks
+  - The Difficulties of Training GANs
+  - Deep Convolutional GANs
+  - Progressive Growing of GANs
+  - StyleGANs
+  - Exercises
+18. Reinforcement Learning
+  - Learning to Optimize Rewards
+  - Policy Search
+  - Introduction to OpenAI Gym
+  - Neural Network Policies
+  - Evaluating Actions: The Credit Assignment Problem
+  - Policy Gradients
+  - Markov Decision Processes
+  - Temporal Difference Learning
+  - Q-Learning
+  - Exploration Policies
+  - Approximate Q-Learning and Deep Q-Learning
+  - Implementing Deep Q-Learning
+  - Deep Q-Learning Variants
+  - Fixed Q-Value Targets
+  - Double DQN
+  - Prioritized Experience Replay
+  - Dueling DQN
+  - The TF-Agents Library
+  - Installing TF-Agents
+  - TF-Agents Environments
+  - Environment Specifications
+  - Environment Wrappers and Atari Preprocessing
+  - Training Architecture
+  - Creating the Deep Q-Network
+  - Creating the DQN Agent
+  - Creating the Replay Buffer and the Corresponding Observer
+  - Creating Training Metrics
+  - Creating the Collect Driver
+  - Creating the Dataset
+  - Creating the Training Loop
+  - Overview of Some Popular RL Algorithms
+  - Exercises
+19. Training and Deploying TensorFlow Models at Scale
+  - Serving a TensorFlow Model
+  - Using TensorFlow Serving
+  - Creating a Prediction Service on GCP AI Platform
+  - Using the Prediction Service
+  - Deploying a Model to a Mobile or Embedded Device
+  - Using GPUs to Speed Up Computations
+  - Getting Your Own GPU
+  - Using a GPU-Equipped Virtual Machine
+  - Colaboratory
+  - Managing the GPU RAM
+  - Placing Operations and Variables on Devices
+  - Parallel Execution Across Multiple Devices
+  - Training Models Across Multiple Devices
+  - Model Parallelism
+  - Data Parallelism
+  - Training at Scale Using the Distribution Strategies API
+  - Training a Model on a TensorFlow Cluster
+  - Running Large Training Jobs on Google Cloud AI Platform
+  - Black Box Hyperparameter Tuning on AI Platform
+  - Exercises
+- Thank You!
